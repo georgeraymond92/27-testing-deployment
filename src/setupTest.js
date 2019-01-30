@@ -4,6 +4,6 @@ import Adapter from "enzyme-adapter-react-16";
 Enzyme.configure({ adapter: new Adapter() });
 
 global.shallow = shallow;
-global.render = render;
+global.render = rqender;
 global.mount = mount;
 global.rootDirectory = __dirname;

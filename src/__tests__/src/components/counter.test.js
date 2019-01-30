@@ -4,9 +4,11 @@ import Counter from "../../../components/counter/counter.js";
 
 describe("<Counter />", () => {
   it("is alive", () => {
+    // let component = shallow(<Counter />);
+    // expect(component.find('span')).toBeFalsy();
     expect(true).toBeTruthy();
   });
-  it('should fail this test', () => {
-    expect(1+1).toEqual(2);
-  })
+
+
+
 });
