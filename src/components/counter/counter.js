@@ -31,13 +31,8 @@ class Counter extends React.Component {
     return (
       <div className="deck">
         <div className="leftBtn">
-          <a
-            href="#"
-            className="btn btn-red down clicker"
-            onClick={this.handleDown}
-          >
-            Decrement
-          </a>
+          {/* eslint-disable-next-line */}
+          <a href="#" className="btn btn-red down clicker" onClick={this.handleDown}>Decrement</a>
         </div>
 
         <div className="count">
@@ -47,13 +42,8 @@ class Counter extends React.Component {
         </div>
 
         <div className="btnRight">
-          <a
-            href="#"
-            className="btn btn-green up clicker"
-            onClick={this.handleUp}
-          >
-            Increment
-          </a>
+          {/* eslint-disable-next-line */}
+          <a href="#" className="btn btn-green up clicker" onClick={this.handleUp}>Increment</a>
         </div>
       </div>
     );
