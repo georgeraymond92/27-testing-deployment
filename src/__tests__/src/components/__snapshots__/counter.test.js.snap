@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> renders correctly 1`] = `
+<div
+  className="deck"
+>
+  <div
+    className="leftBtn"
+  >
+    <a
+      className="btn btn-red down clicker"
+      href="#"
+      onClick={[Function]}
+    >
+      Decrement
+    </a>
+  </div>
+  <div
+    className="count"
+  >
+    <span
+      className="count "
+    >
+      <h1>
+        0
+      </h1>
+    </span>
+  </div>
+  <div
+    className="btnRight"
+  >
+    <a
+      className="btn btn-green up clicker"
+      href="#"
+      onClick={[Function]}
+    >
+      Increment
+    </a>
+  </div>
+</div>
+`;
